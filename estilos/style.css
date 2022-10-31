@@ -14,7 +14,7 @@ html, body {
 
 body {
     margin: 0;
-    background: url('../imagens/fundo-tyler-lastovich.jpg') no-repeat top center;
+    background: url('../imagens/fundo-brett-sayles.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -66,12 +66,9 @@ section#redes-sociais img:hover {
 
 @media screen and (max-width: 700px) {
 
-    section#redes-sociais {
-        text-align: center;
-    }
-    
     section#redes-sociais img {
-        display: inline;
+        display: inline-block;
+        text-align: center;
         width: 60px;
         margin: 13px;
     }
