@@ -14,7 +14,7 @@ html, body {
 
 body {
     margin: 0;
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('../imagens/fundo-tyler-lastovich.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -45,10 +45,11 @@ iframe#tela {
 }
 
 section#redes-sociais {
-    text-align: right;
+    float: right;
 }
 
 section#redes-sociais img {
+    display: block;
     width: 60px;
     margin: 13px;
     border-radius: 50%;
@@ -61,4 +62,17 @@ section#redes-sociais img:hover {
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
     transition: transform .4s, border .4s;
+}
+
+@media screen and (max-width: 700px) {
+
+    section#redes-sociais {
+        text-align: center;
+    }
+    
+    section#redes-sociais img {
+        display: inline;
+        width: 60px;
+        margin: 13px;
+    }
 }
